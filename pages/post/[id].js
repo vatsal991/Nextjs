@@ -5,7 +5,7 @@ import styles from '../../styles/Single.module.css'
 import style from '../../styles/Home.module.css'
 import Footer from "../../src/footer";
 import Image from 'next/image';
-
+import Head from "next/head";
 
 
 export default function Single (props) {
@@ -34,6 +34,38 @@ export default function Single (props) {
 
             return (
               <>
+              <Head>
+              <meta name="apple-mobile-web-app-capable" content="yes" />
+                  <title>{title}</title>
+
+                  <meta
+                    name="apple-mobile-web-app-status-bar-style"
+                    content="black"
+                  />
+                  <meta
+                    name="robots"
+                    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+                  />
+                  {/* <link rel="icon" href={icon} type="image/x-icon"></link> */}
+                  <meta
+                    name="description"
+                    content={`${title} In Hindi Dubbed And 480p,720p & 1080p From KatMovies`}
+                  />
+                  <meta property="og:locale" content="en_US" />
+                  <meta property="og:type" content="website" />
+                  <meta
+                    property="og:title"
+                    content="HDMoviesPro |KatMovies-300mb Movies, 480p Movies"
+                  />
+                  <meta
+                    property="og:description"
+                    content="HDMoviesPro,katmovies,ktmovieshd,kat movies ,MoviesFlix,moviesflix.com,moviesflixpro,moviesflix pro,moviesflix uri,themoviesflix.cc,themoviesflix.co,themoviesflix.in,themoviesflix.net,tamilrockers,moviesverse,movies verse,vegamovies,vega movies,KatMovieHd.sx,MovieskiDuniya,Entertainment 720p Movies, 1080p movies, Dual Audio Movies, Hindi Dubbed Series, Hollywood Movies"
+                  />
+                  <meta
+                    property="og:site_name"
+                    content="HDMoviesPro | HDMoviesPro-300mb Movies, 480p Movies"
+                  />
+              </Head>
                 <div key={id} className={styles.info}>
                   <h1 className={styles.singleheader}>{title}</h1>
                   <div className={styles.SingleContainer2}>
