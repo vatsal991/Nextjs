@@ -31,9 +31,9 @@ return(
             Quality
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="/search/480p&1?">480p</a></li>
-            <li><a class="dropdown-item" href="/search/720p&1?">720p</a></li>
-            <li><a class="dropdown-item" href="/search/1080p&1?">1080p</a></li>
+            <li><a class="dropdown-item" href="/search/480p/1?">480p</a></li>
+            <li><a class="dropdown-item" href="/search/720p/1?">720p</a></li>
+            <li><a class="dropdown-item" href="/search/1080p/1?">1080p</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -41,10 +41,10 @@ return(
             Language
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="/search/hindi&1?">Hindi Dubbed</a></li>
-            <li><a class="dropdown-item" href="/search/english&1?">English</a></li>
-            <li><a class="dropdown-item" href="/search/tamil&1?">Tamil</a></li>
-            <li><a class="dropdown-item" href="/search/telugu&1?">Telugu</a></li>
+            <li><a class="dropdown-item" href="/search/hindi/1?">Hindi Dubbed</a></li>
+            <li><a class="dropdown-item" href="/search/english/1?">English</a></li>
+            <li><a class="dropdown-item" href="/search/tamil/1?">Tamil</a></li>
+            <li><a class="dropdown-item" href="/search/telugu/1?">Telugu</a></li>
           </ul>
         </li>
       </ul>
