@@ -1,116 +1,250 @@
-.container {
-  padding: 0 2rem;
+.link{
+  text-decoration: none;
+  color: #fff;
+}
+.maincontainer{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #111111;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container1{
+    height: 35vh;
+    background-color: #1D1F23;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+}
+.loadingcontainer{
+  width: 90%;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #1D1F23;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.SingleContainer .loadingcontainer{
+  width: 0;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #1D1F23;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.image1{
+    height: 100%;
+    width: 100%;
+}
+.text{
+    padding-left: 3px;
+    font-size:1rem;
+    font-weight: bold;
+    color:antiquewhite;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+/* -------------------NOT FOUND --------------------*/
+
+#notfound {
+    position: relative;
+    height: 100vh;
+    background: #030005;
+  }
+  
+  #notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .notfound {
+    max-width: 767px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .notfound .notfound404 {
+    position: relative;
+    height: 180px;
+    margin-bottom: 20px;
+    z-index: -1;
+  }
+  
+  .notfound .notfound404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50% , -50%);
+        -ms-transform: translate(-50% , -50%);
+            transform: translate(-50% , -50%);
+    font-size: 224px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -12px;
+    color: #030005;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px #8400ff, 1px 1px 0px #ff005a;
+    letter-spacing: -20px;
+  }
+  
+  
+  .notfound .notfound404 h2 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 110px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 0px #8400ff;
+    letter-spacing: 13px;
+    margin: 0;
+  }
+  
+  .notfound a {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ff005a;
+    text-decoration: none;
+    border: 2px solid;
+    background: transparent;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  
+  .notfound a:hover {
+    color: #8400ff;
+  }
+
+  .tester{
+    width: 100%;
+    background-color:#1D1F23;
+    overflow:hidden;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    max-height: 35%;
+  }
+
+  .Bottomads{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 50;
+  }
+  .sidebar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 90vh;
+    overflow: hidden;
+  }
+  .MobileAds{
+    display: none;
+  }
+
+#Popads{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 10;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
-
-.footer {
+.PopSec{
+  height: 90%;
+  width: 90%;
+  margin: auto;
+}
+.DownloadAds{
+  width: 100%;
+  height: 120px;
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
+#Close{
+  background-color: #ff005a;
   text-decoration: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  position: absolute;
+  right: 0;
 }
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  @media only screen and (max-width: 767px) {
+      .notfound .notfound-404 h2 {
+          font-size: 24px;
+      }
+      .SingleContainer2{
+        flex-direction: column;
+      }
+      .textContainer{
+        width: 90%;
+      }
+      .sidebar{
+        display: none;
+      }
+      .info{
+        width: 100%;
+      }
+      .MobileAds{
+    display: block;
+    width: 95%;
+    margin: auto;
+    height: 60px;
   }
-}
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .notfound .notfound-404 h1 {
+        font-size: 182px;
+    }
+    .SingleContainer{
+      width: 95%;
+    }
+    .textContainer{
+      width: 100%;
+    }
+    .SingleContainer .loadingcontainer{
+      width: 95%;
+    }
+    .tester{
+      max-height: 31%;
+    }
+    .MobileAds{
+      display: block;
+      width: 95%;
+      margin: auto;
+      height: 60px;
+    }
+  }

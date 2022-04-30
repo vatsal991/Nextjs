@@ -1,0 +1,173 @@
+.ButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.SingleContainer{
+    width:90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+}
+.singleheader{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin: 8px;
+}
+.SingleContainer2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.image{
+height: 45vh;
+width: 30vh;
+border-radius: 10px;
+margin-top: 10%;
+}
+.textContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 10%;
+  color: aliceblue;
+
+}
+.about{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+  margin: 8px;
+  margin-top: 5%;
+
+}
+.downloadButton{
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+
+}
+.singleheader1{
+  width: 90%;
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin-top: 5%;
+
+}
+
+.info{
+  width: 55%;
+  background-color: #1D1F23;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.sidebar{
+  width: 40%;
+  background-color: #1D1F23;
+  border-radius: 10px;
+  height: 100vh;
+}
+.related{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 5%;
+  background-color: #55585f;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.footer{
+  margin-top: 10%;
+  margin-bottom: -20px;
+}
+
+#__next > div.Single_SingleContainer__6h1Fz > div.Single_info__zlb7Z > div.Single_SingleContainer2__KJMVU > div > div > div > div > p:nth-child(1){
+  background-color: aliceblue;
+}
+
+.thecontent ul{
+    color: aliceblue;
+}
+#root > div.SingleContainer > div.info > div > div > div > div > div > p{
+  display: none;
+}
+#root > div.SingleContainer > div.info > div > div > div > div > div > h3:nth-child(3){
+  display: none;
+}
+#root > div.SingleContainer > div.info > div > div > div > div > div > h3:nth-child(4) > span{
+  display: none;
+}
+#root > div.SingleContainer > div.info > div > div > div > div > div > h3:nth-child(4){
+  display: none;
+}
+.thecontent p img{
+    width: 90%;
+    margin: auto;
+}
+.single .maxbutton{
+  display: none;
+}
+.single h4{
+  display: none;
+}
+.single h5{
+  display: none;
+}
+.single h6{
+  display: none;
+}
+.single img{
+  width: 100%;
+  margin: auto;
+}
+@media only screen and (max-width: 767px) {
+    .SingleContainer2{
+      flex-direction: column;
+    }
+    .textContainer{
+      width: 90%;
+    }
+    .sidebar{
+      display: none;
+    }
+    .info{
+      width: 100%;
+    }
+}
+.imdbwp__thumb{
+    display: none;
+}
+.imdbwp__content{
+    display: none;
+}
+.summary_text{
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 480px) {
+  .SingleContainer{
+    width: 90%;
+  }
+  .textContainer{
+    width: 100%;
+  }
+
+}
