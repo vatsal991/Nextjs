@@ -15,11 +15,11 @@ export default function Home(props) {
      <div>
       <Navbar />
       <div className={styles.maincontainer}>
-   {data.map((Movies,index)=>{
+   {data.map((Movies)=>{
       const {title,id} =Movies
       const images = JSON.stringify(Movies.image).replace(/"/g, '')
       return(
-         <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+         <div key={id} className="col-lg-2 col-md-3 col-sm-4 col-6">
             <div className={styles.container1}>
             <Image className={styles.image1} src={images.replace("lol","sbs")} 
             alt=''
