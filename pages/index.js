@@ -11,6 +11,9 @@ export default function Home(props) {
 
     const [loading,setloading]=useState(false)
     const [data,setdata] = useState(props.data)
+    const loaderProp =({ src }) => {
+      return src;
+    }
 
   return (
      <div>
@@ -24,6 +27,7 @@ export default function Home(props) {
             <div className={styles.container1}>
             <Image className={styles.image1} src={images.replace("lol","sbs")} 
             alt=''
+            loader={loaderProp}
             onError={({ currentTarget }) => {
                currentTarget.onerror = null;
                currentTarget.src="https://cdn.dribbble.com/users/841193/screenshots/4109909/media/c8f817c63e688fe303705c35c9ef46ae.gif";
