@@ -5,6 +5,7 @@ import { useState} from "react";
 import Navbar from '../src/navbar';
 import Footer from '../src/footer';
 import Image from 'next/image';
+import Link from 'next/dist/client/link';
 
 export default function Home(props) {
 
@@ -27,7 +28,7 @@ export default function Home(props) {
                currentTarget.onerror = null;
                currentTarget.src="https://cdn.dribbble.com/users/841193/screenshots/4109909/media/c8f817c63e688fe303705c35c9ef46ae.gif";
                }} />
-            <div className={styles.tester}> <a style={{ textDecoration: 'none' }} href={`/post/${id}`}><text className={styles.text}>{title}</text></a></div>
+            <div className={styles.tester}> <Link style={{ textDecoration: 'none' }} href={`/post/${id}`}><text className={styles.text}>{title}</text></Link></div>
             </div>
 
          </div>
@@ -36,8 +37,8 @@ export default function Home(props) {
    }
 </div>
 <div className='ButtonContaine'>
-<a href="/"><button type="button" className="btn btn-danger" disabled>Previous Page</button></a>
-<a href="/page/2"><button type="button" className="btn btn-danger">Next Page</button></a>
+<Link href="/"><button type="button" className="btn btn-danger" disabled>Previous Page</button></Link>
+<Link href="/page/2"><button type="button" className="btn btn-danger">Next Page</button></Link>
 </div>
 <Footer />
 </div>

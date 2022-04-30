@@ -4,6 +4,7 @@ import Navbar from "../../src/navbar";
 import styles from '../../styles/Single.module.css'
 import style from '../../styles/Home.module.css'
 import Footer from "../../src/footer";
+import Image from 'next/image';
 
 
 
@@ -33,11 +34,12 @@ export default function Single (props) {
 
             return (
               <>
-                <div className={styles.info}>
+                <div key={id} className={styles.info}>
                   <h1 className={styles.singleheader}>{title}</h1>
                   <div className={styles.SingleContainer2}>
-                    <img
+                    <Image
                       className={styles.image}
+                      alt=''
                       src={images.replace("lol","sbs")}
                       onError={({ currentTarget }) => {
                         currentTarget.onerror = null;
@@ -73,17 +75,17 @@ export default function Single (props) {
           })
         }
             <div className={styles.sidebar}>  
-          <div class="d-grid gap-2">
-            <button class="btn btn-danger" type="button">
+          <div className="d-grid gap-2">
+            <button className="btn btn-danger" type="button">
               Please Do Not Use VPN for Downloading Movies From Our Site.
             </button>
-            <button class="btn btn-success" type="button">
+            <button className="btn btn-success" type="button">
               Click On The Below Download Button Download File.
             </button>
-            <button class="btn btn-warning" type="button">
+            <button className="btn btn-warning" type="button">
               If You Find Any Broken Link Then Report To Us.
             </button>
-            <button class="btn btn-info" type="button">
+            <button className="btn btn-info" type="button">
               And Don't Forget To Enjoy Movies
             </button>
           </div>
@@ -95,10 +97,11 @@ export default function Single (props) {
           const images = JSON.stringify(Movies.image).replace(/"/g, '')
 
           return (
-            <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div key={id} className="col-lg-2 col-md-3 col-sm-4 col-6">
               <div className={style.container1}>
-                <img
+                <Image
                   className={style.image1}
+                  alt=''
                   src={images.replace("lol","sbs")}
                   onError={({ currentTarget }) => {
                     currentTarget.onerror = null;

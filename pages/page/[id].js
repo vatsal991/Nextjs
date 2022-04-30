@@ -3,6 +3,8 @@ import { useState,useEffect } from "react";
 import styles from '../../styles/Home.module.css'
 import Navbar from "../../src/navbar";
 import { useRouter } from 'next/router'
+import Link from "next/dist/client/link";
+import Image from 'next/image';
 
 
 
@@ -24,14 +26,14 @@ return(
       const {title,id} =Movies
       const images = JSON.stringify(Movies.image).replace(/"/g, '')
       return(
-         <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+         <div key={id} className="col-lg-2 col-md-3 col-sm-4 col-6">
             <div className={styles.container1}>
-            <img className={styles.image1} src={images.replace("lol","sbs")} 
+            <Image className={styles.image1} src={images.replace("lol","sbs")} 
             onError={({ currentTarget }) => {
                currentTarget.onerror = null;
                currentTarget.src="https://cdn.dribbble.com/users/841193/screenshots/4109909/media/c8f817c63e688fe303705c35c9ef46ae.gif";
                }} />
-            <div className={styles.tester}> <a style={{ textDecoration: 'none' }} href={`/post/${id}`}><text className="text">{title}</text></a></div>
+            <div className={styles.tester}> <Link style={{ textDecoration: 'none' }} href={`/post/${id}`}><text className="text">{title}</text></Link></div>
             </div>
 
          </div>
@@ -40,8 +42,8 @@ return(
    }
 </div>
 <div className='ButtonContaine'>
-<a href={`/page/${previous}`}><button type="button" class="btn btn-danger">Previous Page</button></a>
-<a href={`/page/${next}`}><button type="button" class="btn btn-danger">Next Page</button></a>
+<Link href={`/page/${previous}`}><button type="button" className="btn btn-danger">Previous Page</button></Link>
+<Link href={`/page/${next}`}><button type="button" className="btn btn-danger">Next Page</button></Link>
 </div>
 </>
 ) 
