@@ -29,6 +29,7 @@ return(
          <div key={id} className="col-lg-2 col-md-3 col-sm-4 col-6">
             <div className={styles.container1}>
             <Image className={styles.image1} src={images.replace("lol","sbs")} 
+            alt=''
             onError={({ currentTarget }) => {
                currentTarget.onerror = null;
                currentTarget.src="https://cdn.dribbble.com/users/841193/screenshots/4109909/media/c8f817c63e688fe303705c35c9ef46ae.gif";
