@@ -1,6 +1,7 @@
 import React from "react";
 import { useState} from "react";
-
+import Image from 'next/image';
+import Logo from './logo.png'
 
 // const logoimage = require('../images/Katmovies-removebg-preview.png')
 
@@ -17,7 +18,7 @@ const Navbar=()=>{
 return(
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    {/* <img class="navbar-brand" height={43} width={110} src={logoimage}/> */}
+    <Image class="navbar-brand" height={43} width={110} src={Logo}/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
