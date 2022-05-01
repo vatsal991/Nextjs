@@ -5,8 +5,7 @@ import { useRouter } from "next/router";
 import styles from '../../../styles/Home.module.css'
 import Footer from "../../../src/footer";
 import Image from 'next/image';
-import { Head } from "next/dist/pages/_document";
-
+import Head from 'next/head'
 export default function Search(props){
    
     const router = useRouter()
