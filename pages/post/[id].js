@@ -70,16 +70,7 @@ export default function Single (props) {
                 <div key={id} className={styles.info}>
                   <h1 className={styles.singleheader}>{title}</h1>
                   <div className={styles.SingleContainer2}>
-                    <Image
-                      alt=''
-                      loader={loaderProp}
-                      src={images.replace("lol","sbs")}
-                      onError={({ currentTarget }) => {
-                        currentTarget.onerror = null;
-                        currentTarget.src =
-                          "https://cdn.dribbble.com/users/841193/screenshots/4109909/media/c8f817c63e688fe303705c35c9ef46ae.gif";
-                      }}
-                    />
+                    
                     <div className={styles.textContainer}>
                       <h3 className={styles.about}>ABOUT:</h3>
                       <div className={styles.single}>
@@ -121,6 +112,7 @@ export default function Single (props) {
                 <Image
                   className={style.image1}
                   alt=''
+                  loader={loaderProp}
                   src={images.replace("lol","sbs")}
                   onError={({ currentTarget }) => {
                     currentTarget.onerror = null;
