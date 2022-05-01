@@ -68,7 +68,7 @@ export default function Home(props) {
                 />
                 <div className={styles.tester}>
                   {" "}
-                  <Link style={{ textDecoration: "none" }} href={`/post/${id}`}>
+                  <Link style={{ textDecoration: "none" }} href={`/post/${id}`} as={`/post/${id}`}>
                     <text className={styles.text}>{title}</text>
                   </Link>
                 </div>
