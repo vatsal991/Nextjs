@@ -71,7 +71,6 @@ export default function Single (props) {
                   <h1 className={styles.singleheader}>{title}</h1>
                   <div className={styles.SingleContainer2}>
                     <Image
-                      className={styles.image}
                       alt=''
                       style={{
                         height:'45vh',
