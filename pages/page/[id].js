@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import Link from "next/dist/client/link";
 import Image from 'next/image';
 
-import { Head } from "next/document";
+import Head from "next/head";
 
 
 
