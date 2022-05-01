@@ -46,10 +46,9 @@ export default function Single (props) {
                     name="robots"
                     content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
                   />
-                  {/* <link rel="icon" href={icon} type="image/x-icon"></link> */}
                   <meta
                     name="description"
-                    content={`${title} In Hindi Dubbed And 480p,720p & 1080p From KatMovies`}
+                    content={`${title} In Hindi Dubbed And 480p,720p & 1080p From HDMoviesPro`}
                   />
                   <meta property="og:locale" content="en_US" />
                   <meta property="og:type" content="website" />

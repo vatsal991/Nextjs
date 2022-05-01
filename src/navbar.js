@@ -1,9 +1,7 @@
 import React from "react";
 import { useState} from "react";
-import Image from 'next/image';
-import Logo from './logo.png'
 
-// const logoimage = require('../images/Katmovies-removebg-preview.png')
+
 
 
 const Navbar=()=>{
@@ -14,11 +12,14 @@ const Navbar=()=>{
           setSearchTerm(event.target.value);
         };
         console.log(searchTerm)
-        
+    
+        const loaderProp =({ src }) => {
+          return src;
+        }        
 return(
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <Image class="navbar-brand" height={43} width={120} src={Logo}/>
+    <div style={{fontSize:' x-large',fontFamily:'sans-serif',color:'#A92029',fontWeight:'bold', marginRight:'20px'}}>HDMOVIESPRO</div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
