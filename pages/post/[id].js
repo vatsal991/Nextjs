@@ -72,12 +72,6 @@ export default function Single (props) {
                   <div className={styles.SingleContainer2}>
                     <Image
                       alt=''
-                      style={{
-                        height:'45vh',
-                        width:'30vh',
-                        borderRadius:'10px',
-                        marginTop:'10px'
-                      }}
                       loader={loaderProp}
                       src={images.replace("lol","sbs")}
                       onError={({ currentTarget }) => {
