@@ -18,7 +18,7 @@ const Navbar=()=>{
 return(
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <Image class="navbar-brand" height={43} width={110} src={Logo}/>
+    <Image class="navbar-brand" height={43} width={120} src={Logo}/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
