@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import styles from '../../../styles/Home.module.css'
 import Footer from "../../../src/footer";
 import Image from 'next/image';
-import Head from 'next/head'
+
 export default function Search(props){
    
     const router = useRouter()
@@ -20,39 +20,6 @@ export default function Search(props){
    
 return(
    <>
-           <Head>
-
-<meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>HDMoviesPro |Download Hindi Dubbed Movies-300mb Movies, 480p Movies</title>
-
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black"
-    />
-    <meta
-      name="robots"
-      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-    />
-    <meta
-      name="description"
-      content={`Download Any Movies And Web Series In Hindi Dubbed And 480p,720p & 1080p From HDMoviesPro`}
-    />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="HDMoviesPro |HDMoviesPro-300mb Movies, 480p Movies"
-    />
-    <meta
-      property="og:description"
-      content="HDMoviesPro,katmovies,ktmovieshd,kat movies ,MoviesFlix,moviesflix.com,moviesflixpro,moviesflix pro,moviesflix uri,themoviesflix.cc,themoviesflix.co,themoviesflix.in,themoviesflix.net,tamilrockers,moviesverse,movies verse,vegamovies,vega movies,KatMovieHd.sx,MovieskiDuniya,Entertainment 720p Movies, 1080p movies, Dual Audio Movies, Hindi Dubbed Series, Hollywood Movies"
-    />
-    <meta
-      property="og:site_name"
-      content="HDMoviesPro | HDMoviesPro-300mb Movies, 480p Movies"
-    />
-
-</Head>
    <Navbar />
       <div className={styles.maincontainer}>
    {
