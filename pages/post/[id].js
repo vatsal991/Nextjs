@@ -73,6 +73,12 @@ export default function Single (props) {
                     <Image
                       className={styles.image}
                       alt=''
+                      style={{
+                        height:'45vh',
+                        width:'30vh',
+                        borderRadius:'10px',
+                        marginTop:'10px'
+                      }}
                       loader={loaderProp}
                       src={images.replace("lol","sbs")}
                       onError={({ currentTarget }) => {
@@ -109,20 +115,6 @@ export default function Single (props) {
           })
         }
             <div className={styles.sidebar}>  
-          {/* <div className="d-grid gap-2">
-            <button className="btn btn-danger" type="button">
-              Please Do Not Use VPN for Downloading Movies From Our Site.
-            </button>
-            <button className="btn btn-success" type="button">
-              Click On The Below Download Button Download File.
-            </button>
-            <button className="btn btn-warning" type="button">
-              If You Find Any Broken Link Then Report To Us.
-            </button>
-            <button className="btn btn-info" type="button">
-              And Don't Forget To Enjoy Movies
-            </button>
-          </div> */}
         </div>
       </div>
       <div className={styles.related}>
