@@ -12,7 +12,9 @@ export default function Single (props) {
 
   const [data, setdata] = useState(props.data);
   const [data2, setdata2] = useState(props.data2);
-
+  const loaderProp = ({ src }) => {
+    return src;
+  };
 
   return (
     <>
@@ -71,6 +73,7 @@ export default function Single (props) {
                     <Image
                       className={styles.image}
                       alt=''
+                      loader={loaderProp}
                       src={images.replace("lol","sbs")}
                       onError={({ currentTarget }) => {
                         currentTarget.onerror = null;

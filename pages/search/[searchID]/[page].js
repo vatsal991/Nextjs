@@ -16,6 +16,10 @@ export default function Search(props) {
 
   const [data, setdata] = useState(props.data);
 
+  const loaderProp = ({ src }) => {
+   return src;
+ };
+
   return (
     <>
       <Head>
@@ -60,6 +64,7 @@ export default function Search(props) {
                 <Image
                   className={styles.image1}
                   src={images.replace("lol", "sbs")}
+                  loader={loaderProp}
                   alt=""
                   onError={({ currentTarget }) => {
                     currentTarget.onerror = null;

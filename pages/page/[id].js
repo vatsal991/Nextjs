@@ -18,7 +18,9 @@ export default function Page(props){
     const previous = parseInt(id)-1
    
     const [data,setdata]=useState(props.data)
-
+    const loaderProp = ({ src }) => {
+      return src;
+    };
 return(
    <>
            <Head>
@@ -62,7 +64,8 @@ return(
       return(
          <div key={id} className="col-lg-2 col-md-3 col-sm-4 col-6">
             <div className={styles.container1}>
-            <Image className={styles.image1} src={images.replace("lol","sbs")} 
+            <Image className={styles.image1} src={images.replace("lol","sbs")}
+            loader={loaderProp} 
             alt=''
             onError={({ currentTarget }) => {
                currentTarget.onerror = null;
