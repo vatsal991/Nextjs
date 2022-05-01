@@ -32,6 +32,7 @@ a {
 
 #__next > div > div.Single_SingleContainer__6h1Fz > div.Single_info__zlb7Z > div.Single_SingleContainer2__KJMVU > div > div > div > div > div:nth-child(9) > p:nth-child(2) > a{
   width: 100px;
+  margin-top: 20px;
   height: 10%;
   padding: 10px;
   text-decoration: none;
@@ -39,20 +40,18 @@ a {
   color: aliceblue;
   border-radius: 10px;
   margin: auto;
-  margin-top: 20px;
-
 }
 
 #__next > div > div.Single_SingleContainer__6h1Fz > div.Single_info__zlb7Z > div.Single_SingleContainer2__KJMVU > div > div > div > div > div:nth-child(9) > p:nth-child(4) > a{
   width: 100px;
   height: 10%;
   padding: 10px;
+  margin-top: 20px;
   text-decoration: none;
   border: 2px solid red;
   color: aliceblue;
   border-radius: 10px;
   margin: auto;
-  margin-top: 20px;
 }
 
 #__next > div > div.Single_SingleContainer__6h1Fz > div.Single_info__zlb7Z > div.Single_SingleContainer2__KJMVU > div > div > div > div > p:nth-child(1){
