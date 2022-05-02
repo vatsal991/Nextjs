@@ -18,6 +18,7 @@ export default function Home(props) {
   return (
     <div>
       <Head>
+      <meta name="google-site-verification" content="h_dFPTdMOYmQep_iGDWyn4fS4bttdgFZ7D8Ql3uMuTw" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <title>
           MoviesLust |Download Hindi Dubbed Movies-300mb Movies, 480p Movies
