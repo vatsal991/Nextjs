@@ -50,21 +50,21 @@ export default function Single (props) {
                   />
                   <meta
                     name="description"
-                    content={`${title} In Hindi Dubbed And 480p,720p & 1080p From HDMoviesPro`}
+                    content={`${title} In Hindi Dubbed And 480p,720p & 1080p From MoviesLust`}
                   />
                   <meta property="og:locale" content="en_US" />
                   <meta property="og:type" content="website" />
                   <meta
                     property="og:title"
-                    content="HDMoviesPro |KatMovies-300mb Movies, 480p Movies"
+                    content="MoviesLust |KatMovies-300mb Movies, 480p Movies"
                   />
                   <meta
                     property="og:description"
-                    content="HDMoviesPro,katmovies,ktmovieshd,kat movies ,MoviesFlix,moviesflix.com,moviesflixpro,moviesflix pro,moviesflix uri,themoviesflix.cc,themoviesflix.co,themoviesflix.in,themoviesflix.net,tamilrockers,moviesverse,movies verse,vegamovies,vega movies,KatMovieHd.sx,MovieskiDuniya,Entertainment 720p Movies, 1080p movies, Dual Audio Movies, Hindi Dubbed Series, Hollywood Movies"
+                    content="MoviesLust,katmovies,ktmovieshd,kat movies ,MoviesFlix,moviesflix.com,moviesflixpro,moviesflix pro,moviesflix uri,themoviesflix.cc,themoviesflix.co,themoviesflix.in,themoviesflix.net,tamilrockers,moviesverse,movies verse,vegamovies,vega movies,KatMovieHd.sx,MovieskiDuniya,Entertainment 720p Movies, 1080p movies, Dual Audio Movies, Hindi Dubbed Series, Hollywood Movies"
                   />
                   <meta
                     property="og:site_name"
-                    content="HDMoviesPro | HDMoviesPro-300mb Movies, 480p Movies"
+                    content="MoviesLust | MoviesLust-300mb Movies, 480p Movies"
                   />
               </Head>
                 <div key={id} className={styles.info}>
