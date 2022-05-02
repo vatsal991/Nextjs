@@ -78,10 +78,6 @@ export default function Single (props) {
                       </div>
                     </div>
                   </div>
-                  <h3 className={styles.about}>Note:</h3>
-                  <h6 className={styles.singleheader1}>
-                    Upper First Link Is For 480p, Second Is For 720p and Last Is For 1080p 
-                  </h6>
                     <h3 className={styles.about}>ABOUT SITE:</h3>
                   <div className={styles.MobileAds}>
                   </div>
@@ -116,6 +112,7 @@ export default function Single (props) {
                 <Image
                   className={style.image1}
                   alt=''
+                  layout='fill'
                   loader={loaderProp}
                   src={images.replace("lol","sbs")}
                   onError={({ currentTarget }) => {

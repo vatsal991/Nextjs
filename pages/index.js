@@ -59,6 +59,7 @@ export default function Home(props) {
                   className={styles.image1}
                   src={images.replace("lol", "sbs")}
                   alt=""
+                  layout='fill'
                   loader={loaderProp}
                   onError={({ currentTarget }) => {
                     currentTarget.onerror = null;

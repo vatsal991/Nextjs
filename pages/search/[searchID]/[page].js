@@ -66,6 +66,7 @@ export default function Search(props) {
                   src={images.replace("lol", "sbs")}
                   loader={loaderProp}
                   alt=""
+                  layout='fill'
                   onError={({ currentTarget }) => {
                     currentTarget.onerror = null;
                     currentTarget.src =

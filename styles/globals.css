@@ -20,16 +20,19 @@ a {
   margin-bottom: -20px;
 }
 
+.emoji{
+  display: none;
+}
+
 .maxbutton{
-  width: 100px;
-  height: 8%;
-  padding: 7px;
+  padding: 2px;
   text-decoration: none;
-  border: 2px solid red;
   color: aliceblue;
   border-radius: 10px;
-  margin: auto;
-  margin-top: 15px;
+  margin-top: 30px;
+  background-color: red;
+  font-size: small;
+  font-weight: bold;
 }
 
 .ButtonContaine{
