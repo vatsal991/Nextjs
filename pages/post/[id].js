@@ -78,6 +78,10 @@ export default function Single (props) {
                       </div>
                     </div>
                   </div>
+                  <h3 className={styles.about}>Note:</h3>
+                  <h6 className={styles.singleheader1}>
+                    Upper First Link Is For 480p, Second Is For 720p and Last Is For 1080p 
+                  </h6>
                     <h3 className={styles.about}>ABOUT SITE:</h3>
                   <div className={styles.MobileAds}>
                   </div>
@@ -85,7 +89,7 @@ export default function Single (props) {
                     Download {title}. This is a Hindi movie and available in
                     720p & 480p qualities. This is one of the best movie based
                     on {genre}. This part of this series is now dubbed in Hindi.
-                    Click on the Download links below to proceed👇
+                    Click on the Download links Upper to proceed
                   </h6>
                   <h6 className={styles.singleheader1}>
                     The Best Website/Platform For Hollywood HD Movies. We
