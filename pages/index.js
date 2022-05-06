@@ -17,7 +17,7 @@ export default function Home(props) {
   return (
     <div>
       <Head>
-      <meta name="google-site-verification" content="h_dFPTdMOYmQep_iGDWyn4fS4bttdgFZ7D8Ql3uMuTw" />
+      <meta name="google-site-verification" content="oxZBaNn3FiCIuamQ4VcBzMPOSjA76eQYrZMlw-TnXxk" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <title>
           HDMoviesPro |Download Hindi Dubbed Movies-300mb Movies, 480p Movies
