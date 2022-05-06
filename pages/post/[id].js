@@ -99,17 +99,17 @@ export default function Single (props) {
           })
         }
             <div className={styles.sidebar}>  
-            <div class="d-grid gap-2">
-            <button class="btn btn-danger" type="button">
+            <div className="d-grid gap-2">
+            <button Name="btn btn-danger" type="button">
               Please Do Not Use VPN for Downloading Movies From Our Site.
             </button>
-            <button class="btn btn-success" type="button">
+            <button className="btn btn-success" type="button">
               Click On The Below Download Button Download File.
             </button>
-            <button class="btn btn-warning" type="button">
+            <button className="btn btn-warning" type="button">
               If You Find Any Broken Link Then Report To Us.
             </button>
-            <button class="btn btn-info" type="button">
+            <button className="btn btn-info" type="button">
               And Don't Forget To Enjoy Movies
             </button>
           </div>
