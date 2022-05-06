@@ -110,7 +110,7 @@ export default function Single (props) {
               If You Find Any Broken Link Then Report To Us.
             </button>
             <button className="btn btn-info" type="button">
-              And Don't Forget To Enjoy Movies
+              And Do not Forget To Enjoy Movies
             </button>
           </div>
         </div>
