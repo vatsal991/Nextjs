@@ -100,7 +100,7 @@ export default function Single (props) {
         }
             <div className={styles.sidebar}>  
             <div className="d-grid gap-2">
-            <button Name="btn btn-danger" type="button">
+            <button className="btn btn-danger" type="button">
               Please Do Not Use VPN for Downloading Movies From Our Site.
             </button>
             <button className="btn btn-success" type="button">
